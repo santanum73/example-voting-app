@@ -2,7 +2,7 @@ version: "3"
 
 services:
   vote:
-    build: ./vote
+    build: ./vote-test
     command: python app.py
     volumes:
      - ./vote:/app
